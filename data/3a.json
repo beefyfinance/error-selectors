@@ -1,0 +1,1250 @@
+{
+  "0x3a005014": [
+    "InsufficientPermissions(address,bytes32)"
+  ],
+  "0x3a017f60": [
+    "NFTMarketReserveAuction_Cannot_Finalize_Auction_In_Progress(uint256)"
+  ],
+  "0x3a01a74b": [
+    "NewRoundNotOpen()"
+  ],
+  "0x3a01cdd1": [
+    "BuyCalculationFailed(uint8)"
+  ],
+  "0x3a021704": [
+    "TokenIdAboveMaxError(uint256,uint256)"
+  ],
+  "0x3a026269": [
+    "OnlyRescueGuardian()"
+  ],
+  "0x3a029d4b": [
+    "Erc4626SupplyFuseUnsupportedVault(string,address)"
+  ],
+  "0x3a02e7f0": [
+    "InvalidPackConfiguration()"
+  ],
+  "0x3a03d3bb": [
+    "InvalidBatchAllocation()"
+  ],
+  "0x3a04ad28": [
+    "ErrInvalidEmitterForFastFill()"
+  ],
+  "0x3a04ceca": [
+    "StaleBlockTime()"
+  ],
+  "0x3a0504a3": [
+    "DecentralizedStableCoin__AmountToBeBurnedMustBeGreaterThanZero()"
+  ],
+  "0x3a054bd4": [
+    "EnumerableMapNonexistentKey(uint256)"
+  ],
+  "0x3a055952": [
+    "InvalidTimeFrames()"
+  ],
+  "0x3a05d8a6": [
+    "EpochEndMustBeAfterBegin()"
+  ],
+  "0x3a06efd0": [
+    "EarlyAccessMintDisabled()"
+  ],
+  "0x3a072a35": [
+    "InvalidUrlFormat()"
+  ],
+  "0x3a083499": [
+    "InvalidFeeType()"
+  ],
+  "0x3a093b82": [
+    "ZeroAmountDeposit()"
+  ],
+  "0x3a0a1ca6": [
+    "WithdrawalNotPending()"
+  ],
+  "0x3a0c5cef": [
+    "CallerIsNotALender()"
+  ],
+  "0x3a0cc467": [
+    "V2Migrator__V1PoolDoesNotExist()"
+  ],
+  "0x3a0d0da4": [
+    "IsDoubleLocked()"
+  ],
+  "0x3a0d2adf": [
+    "GenericVaultNotInAReceivablesWhitelist(address)"
+  ],
+  "0x3a0d3c66": [
+    "Abstract__NotExistingTokenId()"
+  ],
+  "0x3a0e3ad6": [
+    "AuctionHouseInvalidPrice(uint256)"
+  ],
+  "0x3a0e4c1a": [
+    "L1_FORK_ERROR()"
+  ],
+  "0x3a104448": [
+    "MaxBuyTx()"
+  ],
+  "0x3a10a72e": [
+    "MustReplaceWithHigherBoost()"
+  ],
+  "0x3a10b87c": [
+    "UnderboughtAsset(address,uint256)"
+  ],
+  "0x3a115bee": [
+    "SettlementSourceInvalid(address)"
+  ],
+  "0x3a11b4e0": [
+    "MinAmountShouldBeGreaterThan0(address)"
+  ],
+  "0x3a121528": [
+    "InvalidGasForProcessing(uint256)"
+  ],
+  "0x3a12c82c": [
+    "ConditionStarted(uint256)"
+  ],
+  "0x3a145a9e": [
+    "InvalidMinHealthFactor(uint256)"
+  ],
+  "0x3a157c2e": [
+    "StartAfterEnd()"
+  ],
+  "0x3a165267": [
+    "InvalidTag()"
+  ],
+  "0x3a168d4b": [
+    "sponsorShield_invalidPaymentType()"
+  ],
+  "0x3a16e721": [
+    "Claim_CrowdfundUnclaimable()"
+  ],
+  "0x3a17606f": [
+    "NotEnoughtShares()"
+  ],
+  "0x3a180ca5": [
+    "AccessRestricted(address)"
+  ],
+  "0x3a18f8dd": [
+    "InitCallFailed()"
+  ],
+  "0x3a19005f": [
+    "FeeDistributorFactory__ReferenceFeeDistributorNotSet()"
+  ],
+  "0x3a1901ab": [
+    "Swap_Pair_Inexistent()"
+  ],
+  "0x3a19295a": [
+    "WAFFLE__MaxTransactionTooLow()"
+  ],
+  "0x3a1a0aae": [
+    "ErrorInsufficientBaseOutput()"
+  ],
+  "0x3a1a8589": [
+    "GenesisUpgradeZero()"
+  ],
+  "0x3a1b112b": [
+    "ReferralProgramAlreadySet()"
+  ],
+  "0x3a1c1545": [
+    "NotEligible(address)"
+  ],
+  "0x3a1ca331": [
+    "priceDeviationTooHigh()"
+  ],
+  "0x3a1d6db3": [
+    "InvalidConsumePermit()"
+  ],
+  "0x3a1d7ea2": [
+    "Chicken__TokenNotMinted(uint256)"
+  ],
+  "0x3a1dbe96": [
+    "WrongTickTier()"
+  ],
+  "0x3a201397": [
+    "NotDefMember()"
+  ],
+  "0x3a211715": [
+    "InsufficientUSDsBalance(uint256,uint256)"
+  ],
+  "0x3a215969": [
+    "SharesTooLow(address,uint256,uint256,uint256)"
+  ],
+  "0x3a21b14f": [
+    "MinimumOneNFT()"
+  ],
+  "0x3a221039": [
+    "WrongSecretWordOrSaltInMatchProof(uint32,uint32,string)"
+  ],
+  "0x3a230cd9": [
+    "TimeWindowInvalid()"
+  ],
+  "0x3a23d825": [
+    "InsufficientCollateral()"
+  ],
+  "0x3a24ed96": [
+    "PositionActive()"
+  ],
+  "0x3a25cfa8": [
+    "DemoV1__EmergencyAlreadyCalled()"
+  ],
+  "0x3a26f82a": [
+    "BaseRouter__bundleInternal_notFirstAction()"
+  ],
+  "0x3a278af0": [
+    "TransferMatrixpricerRejection(uint256)"
+  ],
+  "0x3a279ba1": [
+    "UnexpectedResultLength()"
+  ],
+  "0x3a298f91": [
+    "WhitelistCapReached()"
+  ],
+  "0x3a29e65e": [
+    "InvalidMargin()"
+  ],
+  "0x3a29efbf": [
+    "ETHTransferFailed(address,uint96)"
+  ],
+  "0x3a2a2e4f": [
+    "T6P7zSwqUA(address,uint256,uint256)"
+  ],
+  "0x3a2a4a0b": [
+    "InvalidIndex(address,uint256,uint256)"
+  ],
+  "0x3a2aa560": [
+    "OracleAlreadyReported()"
+  ],
+  "0x3a2abcb6": [
+    "SPENDER_IS_NOT_EXIST()"
+  ],
+  "0x3a2bdf90": [
+    "CallerNotAttester(address)"
+  ],
+  "0x3a2c8b69": [
+    "CapacityThresholdBreached()"
+  ],
+  "0x3a2d9a41": [
+    "OPEN_REWARDS_ALREADY_STARTED()"
+  ],
+  "0x3a2e81fe": [
+    "NotIncentivesController()"
+  ],
+  "0x3a2e8f6d": [
+    "RewardsNotImplemented()"
+  ],
+  "0x3a2ffa16": [
+    "ReferralPercentHigherThan100()"
+  ],
+  "0x3a3030f3": [
+    "SubscriptionManager__CannotReduceMoreThanSubscriptionPrice()"
+  ],
+  "0x3a30ed95": [
+    "GT3OnlyLockUntilTimeFuture()"
+  ],
+  "0x3a30efb8": [
+    "CtrlNotApproved(address,address,uint256)"
+  ],
+  "0x3a33ee9c": [
+    "NoOrderIsEnoughToBeFallback()"
+  ],
+  "0x3a342c10": [
+    "CannotRemoveZeroSelectors()"
+  ],
+  "0x3a34802b": [
+    "NoOracleSubmissionAfterExpiryTime()"
+  ],
+  "0x3a3514e7": [
+    "BeforeClaimPrizeFailed(bytes)"
+  ],
+  "0x3a352008": [
+    "InvalidStartEnd(uint48,uint48)"
+  ],
+  "0x3a3539c9": [
+    "PriceNotValid(string,bytes32)"
+  ],
+  "0x3a35c2f9": [
+    "DistributionNotFound()"
+  ],
+  "0x3a35eb6f": [
+    "CallerNotEigenpieConfigOracleAdmin()"
+  ],
+  "0x3a3614b7": [
+    "ERC721TransferToNonReceiver()"
+  ],
+  "0x3a363184": [
+    "BorrowFreshnessCheck()"
+  ],
+  "0x3a364f3d": [
+    "ProviderCanNotRevokeCredential()"
+  ],
+  "0x3a3677ae": [
+    "ClosedVaultError(address)"
+  ],
+  "0x3a36b14d": [
+    "WrongUniswapConfig()"
+  ],
+  "0x3a374fe5": [
+    "AlreadyUser()"
+  ],
+  "0x3a37b1b6": [
+    "PoolNotCompleted()"
+  ],
+  "0x3a386193": [
+    "Mchango_AlreadyAPremiumSubscriber()"
+  ],
+  "0x3a38a4a0": [
+    "InvalidGasFee()"
+  ],
+  "0x3a394d1c": [
+    "CurrentTimeIsBeforeCliff()"
+  ],
+  "0x3a398daf": [
+    "ApqClosed()"
+  ],
+  "0x3a39cc98": [
+    "DittoEntryPoint_ExecutorIsAlreadyInTheProcessOfDeactivation()"
+  ],
+  "0x3a3baeca": [
+    "NFTDropMarketDutchAuction_Start_Time_Must_Not_Be_In_The_Past()"
+  ],
+  "0x3a3be983": [
+    "MorphoSupplyFuseUnsupportedMarket(string,bytes32)"
+  ],
+  "0x3a3cb621": [
+    "UnsupportedDataRequestMethod(uint8,string,string,string[2][])"
+  ],
+  "0x3a3d29c5": [
+    "NonMintable()"
+  ],
+  "0x3a3d8048": [
+    "TradingNotEnable()"
+  ],
+  "0x3a3d9dd4": [
+    "AdminAddressIsNull()"
+  ],
+  "0x3a3ec628": [
+    "WrongImplementation()"
+  ],
+  "0x3a4001be": [
+    "wrongTargetLoanType()"
+  ],
+  "0x3a40572c": [
+    "InvalidSourceChainSelector()"
+  ],
+  "0x3a40620b": [
+    "ReplyProtocolPercentBpTooHigh()"
+  ],
+  "0x3a40cba5": [
+    "SaleIsStarted()"
+  ],
+  "0x3a4155f6": [
+    "SendFunctionDisabled()"
+  ],
+  "0x3a4182e6": [
+    "SwaplineDexLens__UnknownDataFeedType()"
+  ],
+  "0x3a41d99a": [
+    "GT3InitTokenZero()"
+  ],
+  "0x3a424e59": [
+    "STAKING_ENDED()"
+  ],
+  "0x3a4298b1": [
+    "IAGEngine__TokenAddressesAndPriceFeedAddressesAmountsDontMatch()"
+  ],
+  "0x3a43e980": [
+    "LBFactory__FunctionIsLockedForUsers(address)"
+  ],
+  "0x3a4406b5": [
+    "AlreadyConfigured(address)"
+  ],
+  "0x3a446e6c": [
+    "WAFFLE__MaxWalletAmountTooLow()"
+  ],
+  "0x3a44909f": [
+    "TokenVolumeIsZero()"
+  ],
+  "0x3a4528ef": [
+    "dynamicFeeDisabled()"
+  ],
+  "0x3a454922": [
+    "MintingTreasuryMintClosed()"
+  ],
+  "0x3a46e2ab": [
+    "emptyAddresses(uint256)"
+  ],
+  "0x3a4723cb": [
+    "LS__initRecoveryOwners__invalidAddress()"
+  ],
+  "0x3a47a0f0": [
+    "InvalidInvestment(uint256)"
+  ],
+  "0x3a47ea31": [
+    "MustBeFalse()"
+  ],
+  "0x3a497665": [
+    "InvalidIlkAddress()"
+  ],
+  "0x3a49f07f": [
+    "Agents__AgentAlreadyRegistered(address)"
+  ],
+  "0x3a49fd5c": [
+    "TransferToContract()"
+  ],
+  "0x3a4a205a": [
+    "NotExternalAccount(address,address,address)"
+  ],
+  "0x3a4b028c": [
+    "LighterV2Swap_TooMuchRequested()"
+  ],
+  "0x3a4b8ab9": [
+    "IncorrectDecimals(uint256,uint256)"
+  ],
+  "0x3a4fbcd4": [
+    "AeraPeriphery__PriceIsNotStrictlyPositive()"
+  ],
+  "0x3a4ff684": [
+    "TokenCountExceedsPhaseLimit()"
+  ],
+  "0x3a504b87": [
+    "InvalidWhitelistSigner()"
+  ],
+  "0x3a50e6a1": [
+    "ChallengePeriodTooShort()"
+  ],
+  "0x3a51740d": [
+    "InvalidOptionType(uint16)"
+  ],
+  "0x3a51adfe": [
+    "ProtocolFactory__invalidSwapFeeModuleFactory()"
+  ],
+  "0x3a51b23a": [
+    "NoMev()"
+  ],
+  "0x3a526506": [
+    "LiquidityVaultAlreadySet()"
+  ],
+  "0x3a5351dd": [
+    "MR_qXa8v(address)"
+  ],
+  "0x3a55b4e0": [
+    "ERC20ReflectionInvalidReflectionAmount(uint256)"
+  ],
+  "0x3a56bd55": [
+    "SygnumERC1155BatchLimitExceeded()"
+  ],
+  "0x3a56e4b9": [
+    "InvalidGovernance(address)"
+  ],
+  "0x3a578078": [
+    "PENGU_NOT_A_TOKEN_OWNER()"
+  ],
+  "0x3a5845ec": [
+    "NotListingCreator()"
+  ],
+  "0x3a587056": [
+    "NoExcessTokens(address)"
+  ],
+  "0x3a58a107": [
+    "ClaimTimeIsOver()"
+  ],
+  "0x3a59b317": [
+    "ListingNotStarted(uint32)"
+  ],
+  "0x3a59c931": [
+    "HOTParams__validatePriceBounds_newSpotPriceOutOfBounds()"
+  ],
+  "0x3a5a2b21": [
+    "NoUnclaimedRewards()"
+  ],
+  "0x3a5a4c21": [
+    "SignerNotActive(address)"
+  ],
+  "0x3a5aca69": [
+    "NoBotMint()"
+  ],
+  "0x3a5b738f": [
+    "InsufficientRenown(address,uint256,uint256,int256)"
+  ],
+  "0x3a5befc5": [
+    "UnsupportedERC721Flow()"
+  ],
+  "0x3a5bf49b": [
+    "InvalidDaoSubdomain(string)"
+  ],
+  "0x3a5c972d": [
+    "DollarCostAverage__InvalidTimeInterval()"
+  ],
+  "0x3a5cf905": [
+    "TokenHandlerFailed(bytes)"
+  ],
+  "0x3a5cf9cb": [
+    "OneWayBridge()"
+  ],
+  "0x3a5e3f0d": [
+    "IncompatibleArrayLengths()"
+  ],
+  "0x3a5e4c80": [
+    "SubscriptionCantStart()"
+  ],
+  "0x3a5e76b2": [
+    "XGT3TokenAttached(uint256)"
+  ],
+  "0x3a5e8310": [
+    "ChamberV1__UserRepaidMoreTokenThanOwned()"
+  ],
+  "0x3a5f7b57": [
+    "GameNotStarted()"
+  ],
+  "0x3a604012": [
+    "ExecutionCallFailure()"
+  ],
+  "0x3a60708f": [
+    "UnexpectedValidation()"
+  ],
+  "0x3a60ad49": [
+    "Resolution__ResolutionAlreadyEnded()"
+  ],
+  "0x3a617a54": [
+    "UnauthorizedUpgrade()"
+  ],
+  "0x3a61a4a9": [
+    "UnableToWithdrawCollateral(int256)"
+  ],
+  "0x3a631743": [
+    "requesterNotEnoughBalance()"
+  ],
+  "0x3a633dfe": [
+    "TraitsIsFrozen()"
+  ],
+  "0x3a637275": [
+    "CapyNeverTakesBribe()"
+  ],
+  "0x3a63e99a": [
+    "EndHistoryRootMismatch(bytes32,bytes32)"
+  ],
+  "0x3a64951f": [
+    "NonExistantTranche()"
+  ],
+  "0x3a64cb69": [
+    "onlyHonorary()"
+  ],
+  "0x3a64d973": [
+    "OnlyChainsWithPessimisticProofs()"
+  ],
+  "0x3a651e21": [
+    "Router_InvalidTakeProfitPercentage()"
+  ],
+  "0x3a6586e3": [
+    "OutputAmountSlippage()"
+  ],
+  "0x3a66132b": [
+    "OverRemaining()"
+  ],
+  "0x3a665caa": [
+    "Auction__MustBeSeller()"
+  ],
+  "0x3a6704a0": [
+    "Undersupply()"
+  ],
+  "0x3a672a98": [
+    "PartialFillUnderflow()"
+  ],
+  "0x3a67746c": [
+    "TransferFromNotAllowed()"
+  ],
+  "0x3a67aa1b": [
+    "InvalidClaimableTokenError(address)"
+  ],
+  "0x3a67cf6d": [
+    "InvalidTokenOrderError()"
+  ],
+  "0x3a68367b": [
+    "BalancerV2DecoderAndSanitizer__InternalBalancesNotSupported()"
+  ],
+  "0x3a6859f7": [
+    "NotPotentialOwner(address)"
+  ],
+  "0x3a68e846": [
+    "PXP404__InvalidOwner()"
+  ],
+  "0x3a69edc0": [
+    "InvalidBlueprintAddress()"
+  ],
+  "0x3a6a68b1": [
+    "NoDeposit()"
+  ],
+  "0x3a6a875c": [
+    "NotEnoughAuthors()"
+  ],
+  "0x3a6a98b0": [
+    "InvalidReturnValue()"
+  ],
+  "0x3a6acd34": [
+    "Fiat24Airdrop__AirdropCampaignNotActive(uint256,address)"
+  ],
+  "0x3a6bbed3": [
+    "IncorrectOwner()"
+  ],
+  "0x3a6de08f": [
+    "DittoEntryPoint_InsufficientPrefund()"
+  ],
+  "0x3a6df661": [
+    "InvalidTargetPath()"
+  ],
+  "0x3a6e75da": [
+    "BEAN_SellAssetBalanceLow()"
+  ],
+  "0x3a6f4dfa": [
+    "WrongTokens()"
+  ],
+  "0x3a7089ab": [
+    "SecurityCheckCodeFailed()"
+  ],
+  "0x3a71da0d": [
+    "ClanModifiers_KnightNotInThisClan(uint256,uint256)"
+  ],
+  "0x3a731159": [
+    "WithdrawalSignerExists()"
+  ],
+  "0x3a731e29": [
+    "InvalidSettler()"
+  ],
+  "0x3a739da5": [
+    "StakingEligibility_NothingToWithdraw()"
+  ],
+  "0x3a740d78": [
+    "TokenAttributeAlreadyExists()"
+  ],
+  "0x3a7431dc": [
+    "TooManyTaxValues()"
+  ],
+  "0x3a74c939": [
+    "MaxCapCannotBeZero()"
+  ],
+  "0x3a768352": [
+    "ERC4626Adaptor__ERC4626PositionNotUsed(address)"
+  ],
+  "0x3a7693e4": [
+    "ProofBlockRangeTooLarge()"
+  ],
+  "0x3a76e1f3": [
+    "DiamondCutFacet__InvalidRouteWithoutGuardian()"
+  ],
+  "0x3a774dd8": [
+    "OnlyProver(address,address)"
+  ],
+  "0x3a777ed3": [
+    "HarvestBeforeLockup()"
+  ],
+  "0x3a78c68b": [
+    "NotFoundAddress(string)"
+  ],
+  "0x3a78cd7e": [
+    "InsufficientWntAmountForExecutionFee(uint256,uint256)"
+  ],
+  "0x3a78ded9": [
+    "FUN_INTERPOOL_SWAP_NOT_SUPPORTED()"
+  ],
+  "0x3a78f32b": [
+    "QuantityWouldExceedMaxSupply()"
+  ],
+  "0x3a78f7d4": [
+    "SettlementPositionsMustMatch()"
+  ],
+  "0x3a79ca55": [
+    "Reentering()"
+  ],
+  "0x3a7a997c": [
+    "NotTokenOwner(address,address)"
+  ],
+  "0x3a7b0eb8": [
+    "AlreadyForwarded()"
+  ],
+  "0x3a7b9ee2": [
+    "Cube3Router_NotValidRegistryInterface()"
+  ],
+  "0x3a7be37b": [
+    "InvalidTotalShares()"
+  ],
+  "0x3a7d6a6a": [
+    "OnlyAfterVestingStart(uint8)"
+  ],
+  "0x3a808272": [
+    "UnsuitableParent(uint256)"
+  ],
+  "0x3a80b220": [
+    "InvalidPageNumber()"
+  ],
+  "0x3a81d6fc": [
+    "AlreadyRegistered()"
+  ],
+  "0x3a82cd4d": [
+    "CrowdFund_NotOwner()"
+  ],
+  "0x3a83fff8": [
+    "InvalidRedeemAmount(uint256)"
+  ],
+  "0x3a849e7c": [
+    "NotSoQ00t()"
+  ],
+  "0x3a855ea4": [
+    "VestingEventTokensIsZero()"
+  ],
+  "0x3a870199": [
+    "InvalidOpponent(address,uint256)"
+  ],
+  "0x3a8726e5": [
+    "NoAdapterWithName(string)"
+  ],
+  "0x3a8795c2": [
+    "EffectiveLiquidityAboveThreshold()"
+  ],
+  "0x3a87a73a": [
+    "DuplicateHook(address)"
+  ],
+  "0x3a87e565": [
+    "GDA_NOT_POOL_ADMIN()"
+  ],
+  "0x3a88f45c": [
+    "TokenLockup__TotalAmountDoesNotMatch(uint256)"
+  ],
+  "0x3a892d79": [
+    "V2AlreadyOpen()"
+  ],
+  "0x3a89f793": [
+    "CannotReferYourself()"
+  ],
+  "0x3a8aad29": [
+    "PackMyNFT__InvalidArraysLength()"
+  ],
+  "0x3a8b51a7": [
+    "BridgeTokenIsNull()"
+  ],
+  "0x3a8bf659": [
+    "UnbalancedPool()"
+  ],
+  "0x3a8c30f4": [
+    "LPBalanceShortfall()"
+  ],
+  "0x3a8c54c4": [
+    "TellerWithMultiAssetSupport__ZeroShares()"
+  ],
+  "0x3a8c59d8": [
+    "NotAllSameRarity()"
+  ],
+  "0x3a8cdd0e": [
+    "ProxyHub_ContractIsInvalid(bytes4)"
+  ],
+  "0x3a8d6086": [
+    "Raffle__UpKeepNotNeeded(uint256,uint256,uint256)"
+  ],
+  "0x3a8ec690": [
+    "TransferRole()"
+  ],
+  "0x3a8fc832": [
+    "LoanWithERC20__LiquidationThresholdNotReached()"
+  ],
+  "0x3a8fff41": [
+    "ExistingOperator(address)"
+  ],
+  "0x3a9061d4": [
+    "WrapNotSucceed()"
+  ],
+  "0x3a915141": [
+    "PhoenixAuction__NothingToEmit()"
+  ],
+  "0x3a9299bb": [
+    "LeaderboardNotFound(uint256)"
+  ],
+  "0x3a930471": [
+    "TradingInvalidLeverage()"
+  ],
+  "0x3a930fdf": [
+    "RelayerProxy__definedAddress_empty(address)"
+  ],
+  "0x3a933d48": [
+    "OC_InvalidCurrency(address)"
+  ],
+  "0x3a93861d": [
+    "ExceedsMaxWallet(uint256,uint256)"
+  ],
+  "0x3a946eab": [
+    "NotAllowedToGift()"
+  ],
+  "0x3a94c705": [
+    "InvalidUniswapCallback()"
+  ],
+  "0x3a964d47": [
+    "InvalidMaxMintableRange()"
+  ],
+  "0x3a970fe6": [
+    "NFTMarketReserveAuction_Must_Set_Non_Zero_Reserve_Price()"
+  ],
+  "0x3a994096": [
+    "PaymentProcessor__TokenSecurityPolicyDoesNotAllowEOACallers()"
+  ],
+  "0x3a996596": [
+    "InvalidWormholeFees()"
+  ],
+  "0x3a996fd8": [
+    "PayoutFailed(address,address,uint256)"
+  ],
+  "0x3a997bfc": [
+    "InvalidLeverage(uint256,uint256)"
+  ],
+  "0x3a9ae7b9": [
+    "LZ_ULN_InvalidPacketVersion()"
+  ],
+  "0x3a9afdd9": [
+    "CurrencyParityCurrencyExists(address)"
+  ],
+  "0x3a9c0d66": [
+    "GameManager__InvalidMoveHash(uint256,address,uint8,string,bytes32)"
+  ],
+  "0x3a9cc376": [
+    "BaseVault__NoQueuedWithdrawal()"
+  ],
+  "0x3a9ce926": [
+    "MaximumStakingError(uint256,uint256)"
+  ],
+  "0x3a9cec59": [
+    "Minting_Not_allowed()"
+  ],
+  "0x3a9e2834": [
+    "PCG__InvalidNumberOfMintableCards(uint256)"
+  ],
+  "0x3a9f5fb4": [
+    "CallerIsNotGovernor(address)"
+  ],
+  "0x3a9f734d": [
+    "InsufficientFund(uint256)"
+  ],
+  "0x3aa0de38": [
+    "CollateralNotSet()"
+  ],
+  "0x3aa10643": [
+    "NotItemOwner()"
+  ],
+  "0x3aa2f3a3": [
+    "Cube3Protection_PreRegistrationFailed()"
+  ],
+  "0x3aa2f993": [
+    "InvalidSaleMode()"
+  ],
+  "0x3aa376ff": [
+    "InsufficientPoolFee()"
+  ],
+  "0x3aa55eb9": [
+    "UnexpectedTokenSelectionError()"
+  ],
+  "0x3aa59ad1": [
+    "MaximumPublicMintSupplyReached()"
+  ],
+  "0x3aa6c2c1": [
+    "SOURCEDESTINATION__failedToWithdrawEth(address,uint256)"
+  ],
+  "0x3aa7720e": [
+    "SignatureNotFromNftOwner()"
+  ],
+  "0x3aa83685": [
+    "InvalidStateForThisAction(uint8)"
+  ],
+  "0x3aa8bcf1": [
+    "BalancerPoolAdaptor___InvalidConstructorSlippage()"
+  ],
+  "0x3aa8dcda": [
+    "STALE_ORACLE(uint8,address,uint256,uint256)"
+  ],
+  "0x3aa99c9b": [
+    "PC_NO_ONGOING_LOAN()"
+  ],
+  "0x3aaadaf8": [
+    "InvalidRoyaltyConfig()"
+  ],
+  "0x3aaadf0f": [
+    "OutletDoesNotExist()"
+  ],
+  "0x3aab3203": [
+    "SenderNotManager(address,uint16)"
+  ],
+  "0x3aab38c1": [
+    "UnexpectedType()"
+  ],
+  "0x3aab4b00": [
+    "MissingInvokeRole(address)"
+  ],
+  "0x3aab8227": [
+    "CrossChainPoolManager__SenderIsNotCTF(address,address)"
+  ],
+  "0x3aabf018": [
+    "ERC721CoreOnInitializeCallFailed()"
+  ],
+  "0x3aacf6be": [
+    "CrowdFunding__SenderIsNotTheOwner()"
+  ],
+  "0x3aad288c": [
+    "PriceIncorrect()"
+  ],
+  "0x3aad5e0e": [
+    "VaultInitFailed(address)"
+  ],
+  "0x3aad8472": [
+    "IPAssetRegistry__UnsupportedIERC721Metadata(address)"
+  ],
+  "0x3aae5429": [
+    "ExpiredSignature(uint48)"
+  ],
+  "0x3aaeda2b": [
+    "RateAboveMax()"
+  ],
+  "0x3aaf5034": [
+    "NoAssetsToRecover()"
+  ],
+  "0x3aafb3ec": [
+    "NoFundsRemainingOnChallenge()"
+  ],
+  "0x3aafb848": [
+    "NarutoNft__NotEnoughBalance()"
+  ],
+  "0x3ab0e946": [
+    "LiquidityVaultToken__BurnAmountExceedsBalance()"
+  ],
+  "0x3ab1cd09": [
+    "Candidates_Cannot_Be_Added_Yet()"
+  ],
+  "0x3ab214bd": [
+    "NFTMarketOffers__CallerIsNotInitializer()"
+  ],
+  "0x3ab272c1": [
+    "NotInvestor()"
+  ],
+  "0x3ab2acf6": [
+    "InvalidAssetPrice()"
+  ],
+  "0x3ab34cbc": [
+    "LecksisVesting__AddressZero()"
+  ],
+  "0x3ab47214": [
+    "SubscriptionPaymentFailed()"
+  ],
+  "0x3ab612e7": [
+    "FractionalizationNotInitiated()"
+  ],
+  "0x3ab67276": [
+    "PriceStaled()"
+  ],
+  "0x3ab755b2": [
+    "ConstructorFailed()"
+  ],
+  "0x3ab78707": [
+    "LBPair__InvalidInput()"
+  ],
+  "0x3ab7dbb8": [
+    "GovSupplyExceeded()"
+  ],
+  "0x3ab7fa0c": [
+    "CTACannotMintExistentLeaderboard()"
+  ],
+  "0x3ab816ed": [
+    "RelicAlreadyAtMaxLevel()"
+  ],
+  "0x3ab81de1": [
+    "RequestIdNotFound()"
+  ],
+  "0x3ab9eb05": [
+    "OnlySuperchainRaffle()"
+  ],
+  "0x3aba2a32": [
+    "STP_OVERFLOW()"
+  ],
+  "0x3abb07fb": [
+    "BridgeCommitmentNotFound()"
+  ],
+  "0x3abf94b9": [
+    "AlreadyItIs()"
+  ],
+  "0x3ac0e998": [
+    "GENESIS_ALREADY_ENDED()"
+  ],
+  "0x3ac0ea14": [
+    "NoyaAccounting_RequestIsNotCalculated()"
+  ],
+  "0x3ac0efd3": [
+    "PoolUpgradeFailed()"
+  ],
+  "0x3ac16fdd": [
+    "AgreementEligibility_NotOwner()"
+  ],
+  "0x3ac3109f": [
+    "UnstakeOperatorWithPartialAmount(address)"
+  ],
+  "0x3ac357d8": [
+    "EarlyRequest()"
+  ],
+  "0x3ac5a180": [
+    "WrongFeeSupplied()"
+  ],
+  "0x3ac5bb43": [
+    "BtrflyAllocator_InvalidAddress()"
+  ],
+  "0x3ac5e379": [
+    "ykvuiaPSnDG3pBwibQbF23vY0uAbRzrJMr8sfSWZZRQbfe7FIakQDpwNqXq5ki148YIHUnufhtLOIz0oVFOgy(int256)"
+  ],
+  "0x3ac75170": [
+    "InvalidPriceData(string)"
+  ],
+  "0x3ac81a9c": [
+    "NFTMarketplace__NoProceedsToWithdraw()"
+  ],
+  "0x3ac94a30": [
+    "E_ProxyMetadata()"
+  ],
+  "0x3ac96e15": [
+    "ASR_StakingToken()"
+  ],
+  "0x3aca788a": [
+    "TokenCurrencyNotAccepted()"
+  ],
+  "0x3acace01": [
+    "WrongEthAmount()"
+  ],
+  "0x3acae610": [
+    "EmmetTokenStrategyError(string)"
+  ],
+  "0x3acc511a": [
+    "InvalidPremiumPercentage(uint8,uint8)"
+  ],
+  "0x3acc6531": [
+    "ShortRecordFullyFilledUnderMinSize()"
+  ],
+  "0x3acc8c9c": [
+    "UnexpectedExtraDataFormat(uint256,uint256)"
+  ],
+  "0x3accc52b": [
+    "InvalidExpiry(uint256)"
+  ],
+  "0x3acd29f0": [
+    "SubscriptionManager_PaymentAlreadyMade()"
+  ],
+  "0x3acd6cb2": [
+    "MAX_MINT_PER_ADDRESS()"
+  ],
+  "0x3acda747": [
+    "FundMeEth__withdrawFailed()"
+  ],
+  "0x3acf0e9e": [
+    "EigenPodMaxLimitReached()"
+  ],
+  "0x3acfd9e4": [
+    "Helios_OnlyBuyAndBurn()"
+  ],
+  "0x3acffeae": [
+    "Module__BondingCurveBase__InvalidDepositAmount()"
+  ],
+  "0x3ad14c2d": [
+    "SimpleVault__NotDawnOfInsrtTokenOwner()"
+  ],
+  "0x3ad2599b": [
+    "InvalidUpdatingUser(address,address)"
+  ],
+  "0x3ad30db3": [
+    "Member_challengeRevoke__RevokedMemberNoExecutioner()"
+  ],
+  "0x3ad3564c": [
+    "BorrowingVault__liquidate_moreThanAllowed()"
+  ],
+  "0x3ad37a97": [
+    "InvalidTurnDuration()"
+  ],
+  "0x3ad3e1cc": [
+    "BeforeEffectiveTimestamp()"
+  ],
+  "0x3ad3fd55": [
+    "InsufficientElapsedTime(uint256,uint256,uint256)"
+  ],
+  "0x3ad43d11": [
+    "SimpleVault__NotCollectionOfVault()"
+  ],
+  "0x3ad5338b": [
+    "Gyidi__DeadlineBeforeStartTime()"
+  ],
+  "0x3ad5610e": [
+    "NoActiveIssuance()"
+  ],
+  "0x3ad5ae05": [
+    "BaseSpoke_Pause_NotAuthorized()"
+  ],
+  "0x3ad70462": [
+    "CrossChainGovernable__ZeroAddress()"
+  ],
+  "0x3ad7771a": [
+    "PriceMismatch(uint256,uint256)"
+  ],
+  "0x3ad7a7b8": [
+    "GT3GaugeOnlyAccountOrVoter(address)"
+  ],
+  "0x3ad9580b": [
+    "InvalidMintPeriod()"
+  ],
+  "0x3ad9b327": [
+    "AddressCannotSetFeeRecipient(address)"
+  ],
+  "0x3ada02e5": [
+    "ArraySize()"
+  ],
+  "0x3ada1c3b": [
+    "SingleReturnValuePermittedVariable()"
+  ],
+  "0x3adaa062": [
+    "Positions__OnlyLenderOperation()"
+  ],
+  "0x3adb34b3": [
+    "Raffle__performUpkeepIsNotAvailable(uint256,uint256,uint256)"
+  ],
+  "0x3adc074e": [
+    "LCDClassAlreadyExists()"
+  ],
+  "0x3add4c37": [
+    "INVALID_TOKEN_ID(uint256)"
+  ],
+  "0x3adeffa3": [
+    "UsedAddress()"
+  ],
+  "0x3ae03dfc": [
+    "KnowledgeEngine__FundsNotTransferredToVault()"
+  ],
+  "0x3ae2c9c5": [
+    "OutCommitmentLengthMismatch()"
+  ],
+  "0x3ae35192": [
+    "CapacityInsufficientForResize()"
+  ],
+  "0x3ae3d0cf": [
+    "MaxWithdraw()"
+  ],
+  "0x3ae3ec95": [
+    "Raffle__OnlyOwner(uint256)"
+  ],
+  "0x3ae417e8": [
+    "GenericAccessDenied()"
+  ],
+  "0x3ae43636": [
+    "SeedMustBeReset()"
+  ],
+  "0x3ae4ed6b": [
+    "InvalidFieldElement()"
+  ],
+  "0x3ae58181": [
+    "InvalidMinSwapAmount()"
+  ],
+  "0x3ae5a8ff": [
+    "NeitherFactoryNorOwner()"
+  ],
+  "0x3ae6e1c0": [
+    "NotEnoughBalance(address,uint256,uint256)"
+  ],
+  "0x3ae6ee0a": [
+    "InvalidReporter()"
+  ],
+  "0x3ae7359e": [
+    "ExpiredRoot()"
+  ],
+  "0x3ae74167": [
+    "TokenQueryProducedVariant()"
+  ],
+  "0x3ae98683": [
+    "NotTeamLeader(uint256)"
+  ],
+  "0x3ae9a2c3": [
+    "DCPTransferredForRollOrder()"
+  ],
+  "0x3aea8943": [
+    "indexOutOfBound()"
+  ],
+  "0x3aeb4149": [
+    "StakingRewars__PenaltyDaysTimelock()"
+  ],
+  "0x3aebfae9": [
+    "AccessControl_CallerNotRelayer()"
+  ],
+  "0x3aeca77f": [
+    "NoSelectorSpecified()"
+  ],
+  "0x3aedd771": [
+    "ContentAlreadyEthscribed()"
+  ],
+  "0x3aee2eec": [
+    "ZeroApproverLength()"
+  ],
+  "0x3aefb4d8": [
+    "AllowListEntryExpired()"
+  ],
+  "0x3af0002a": [
+    "NotEnoughCapacity((uint16,bytes32),uint256,uint256)"
+  ],
+  "0x3af026c9": [
+    "MetaVesTController_OnlyAuthority()"
+  ],
+  "0x3af1db0f": [
+    "CoinDoesntExistInPriceOracle(address)"
+  ],
+  "0x3af256bc": [
+    "PeerNotRegistered(uint16)"
+  ],
+  "0x3af2ed00": [
+    "Not100()"
+  ],
+  "0x3af36e0a": [
+    "InvalidConditions()"
+  ],
+  "0x3af4d696": [
+    "WhitelistedVesting__SameWalletAllocationForCadenceProvided()"
+  ],
+  "0x3af641e0": [
+    "StakingTokenZeroAddress()"
+  ],
+  "0x3af65a7b": [
+    "InvalidMinDepositValue()"
+  ],
+  "0x3af8647b": [
+    "InsufficientMargin(uint256,uint256)"
+  ],
+  "0x3af9877a": [
+    "AxelarProxy__PastDeadline()"
+  ],
+  "0x3af9a94a": [
+    "InscriptionIdAlreadySet()"
+  ],
+  "0x3afad010": [
+    "DysnomiaInsufficientBalance(address,address,address,address,address,int256,int256)"
+  ],
+  "0x3afbb828": [
+    "InvalidKeycode(bytes5)"
+  ],
+  "0x3afbee2c": [
+    "NonRegisteredSubject(uint8,uint256)"
+  ],
+  "0x3afc8ce9": [
+    "SaleOff()"
+  ],
+  "0x3afd7176": [
+    "MintiVerseMarket__NotTokenOwner()"
+  ],
+  "0x3afe00cf": [
+    "AddressNotStored(string)"
+  ],
+  "0x3afe323f": [
+    "InconsistentAmount(uint256,uint256)"
+  ],
+  "0x3afeb2a6": [
+    "MintToContract()"
+  ],
+  "0x3afed635": [
+    "ALMAlreadySet()"
+  ],
+  "0x3aff96a9": [
+    "UnstakeBelowMinimumETHAmount(uint256,uint256)"
+  ],
+  "0x3affc6c4": [
+    "IncorrectRoyaltyPercentage(uint256)"
+  ]
+}
