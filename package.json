@@ -26,7 +26,7 @@
     "prepack": "tsc --project tsconfig.publish.json"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20.11.0"
   },
   "devDependencies": {
     "@types/bun": "latest"
