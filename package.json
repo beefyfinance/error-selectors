@@ -1,10 +1,32 @@
 {
-  "name": "error-decode-example",
-  "module": "src/index.ts",
+  "name": "@beefyfinance/error-selectors",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beefyfinance/beefy-error-selectors.git"
+  },
+  "license": "MIT",
   "type": "module",
+  "files": [
+    "dist/**",
+    "data/**"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
   "scripts": {
-    "start": "bun src/index.ts",
-    "add": "bun src/add.ts"
+    "add": "bun scripts/add.ts",
+    "prepack": "tsc --project tsconfig.publish.json"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "devDependencies": {
     "@types/bun": "latest"

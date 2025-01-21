@@ -1,0 +1,29 @@
+name: 'Bump version and publish package'
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 'Checkout source'
+        uses: actions/checkout@v4
+      - name: 'Setup bun'
+        uses: oven-sh/setup-bun@v2.0.1
+      - name: 'Install dependencies'
+        run: bun install --frozen-lockfile
+      - name: 'Automated Version Bump'
+        uses: 'phips28/gh-action-bump-version@v11.0.7'
+        with:
+          tag-prefix: 'v'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Publish package'
+        run: bun publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

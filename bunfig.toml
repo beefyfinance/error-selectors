@@ -1,0 +1,4 @@
+telemetry = false
+
+[install.scopes]
+"@beefyfinance" = { token = "$NPM_TOKEN", url = "https://registry.npmjs.org" }

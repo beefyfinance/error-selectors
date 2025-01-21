@@ -1,6 +1,7 @@
 import type { ErrorSignaturesLoaderOptions } from './ErrorSignaturesLoader.js';
 import { ErrorAbisLoader, type ErrorAbisLoaderOptions } from './ErrorAbisLoader.js';
 import { type ByteArray, decodeAbiParameters } from 'viem';
+import { join as pathJoin } from 'node:path';
 import {
   compareErrorResults,
   dataToHex,
@@ -11,7 +12,8 @@ import {
 } from './data-utils.js';
 import type {
   AnyResult,
-  DecodedResult, EmptyResult,
+  DecodedResult,
+  EmptyResult,
   ErrorSignatureAbi,
   MatchedResult,
   Selector,
@@ -22,16 +24,23 @@ import type {
 
 export type ErrorDecoderOptions = ErrorSignaturesLoaderOptions & Omit<ErrorAbisLoaderOptions, 'data'>;
 
+const defaultOptions: ErrorDecoderOptions = {
+  maxSelectorsInCache: 1000,
+  maxFilesInCache: 2,
+  prefixLength: 2,
+  path: pathJoin(__dirname, '..', 'data'),
+}
+
 export class ErrorDecoder {
   private readonly abis: ErrorAbisLoader;
 
-  constructor(options: ErrorDecoderOptions) {
+  constructor(options?: ErrorDecoderOptions) {
     this.abis = new ErrorAbisLoader({
-      maxSelectorsInCache: options.maxSelectorsInCache,
+      maxSelectorsInCache: options?.maxSelectorsInCache ?? defaultOptions.maxSelectorsInCache,
       data: {
-        path: options.path,
-        maxFilesInCache: options.maxFilesInCache,
-        prefixLength: options.prefixLength,
+        path: options?.path ?? defaultOptions.path,
+        maxFilesInCache: options?.maxFilesInCache ?? defaultOptions.maxFilesInCache,
+        prefixLength: options?.prefixLength ?? defaultOptions.prefixLength,
       }
     });
   }

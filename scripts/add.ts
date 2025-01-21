@@ -1,9 +1,9 @@
-import { extractErrors, readAbi, type SelectorSignature, type SelectorSignatureByPrefix } from './lib/abi-utils.js';
-import type { ErrorSignature } from './lib/types.js';
+import { extractErrors, readAbi, type SelectorSignature, type SelectorSignatureByPrefix } from '../src/abi-utils.js';
+import type { ErrorSignature } from '../src/types.js';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join as pathJoin } from 'node:path';
 
-const dataPath = pathJoin(__dirname, '..', 'data');
+const dataPath = pathJoin(__dirname, '..', 'src', 'data');
 const prefixLength = 2;
 const args = process.argv.slice(2);
 

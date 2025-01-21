@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test';
-import { ErrorDecoder } from '../src/lib/ErrorDecoder.js';
+import { ErrorDecoder } from '../src/ErrorDecoder.js';
 import type { AbiError, AbiType } from 'abitype';
 
 const emptyCases = {
