@@ -28,7 +28,7 @@ const defaultOptions: ErrorDecoderOptions = {
   maxSelectorsInCache: 1000,
   maxFilesInCache: 2,
   prefixLength: 2,
-  path: pathJoin(__dirname, '..', 'data'),
+  path: pathJoin(import.meta.dirname, '..', 'data'),
 }
 
 export class ErrorDecoder {
